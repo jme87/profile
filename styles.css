@@ -1,0 +1,137 @@
+body {
+  background-color: #d0d2e0;
+  font-family: 'Lato', sans-serif;
+  color: #2f3e95;
+  text-align: center;
+  line-height: normal;
+}
+
+h1 {
+  font-family: 'Rozha One', serif;
+  color: #2f3e95;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Rozha One', serif;
+  color: #2f3e95;
+}
+
+p {
+  margin: 40px 0;
+}
+
+.card-light {
+  background-color: #F3F6F3;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 30px 0px;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 30px;
+}
+.list li {
+  width: 33.33%;
+  text-align: left;
+}
+
+
+/* Links */
+a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-purple {
+  background-color: #536bf2;
+  color: #ffffff;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+
+.btn-purple:hover {
+  text-decoration: none;
+  color: #b9beda;
+  background-color: #2f3e95;
+}
+
+ul {
+  padding: 0;
+}
+
+.social-links li {
+  list-style: none;
+  text-decoration: none;
+  font-size: 40px;
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+.social-links i {
+  color: #536bf2;
+}
+
+.social-links i:hover {
+  color: #2f3e95;
+}
+
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .list {
+    padding-left: 60px;
+  }
+
+  .list li {
+    width: 50%;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .list {
+    padding-left: 40px;
+  }
+
+  .list li {
+    width: 50%;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .list {
+    padding-left: 80px;
+  }
+
+  .list li {
+    width: 100%;
+  }
+}
